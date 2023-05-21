@@ -68,6 +68,21 @@ p {
 
 /* end of reset */
 
+.top-navigation-area {
+	display: flex;
+}
+
+.top-navigation-area nav {
+	display: flex;
+	align-items: flex-end;
+}
+
+.top-navigation-area nav a {
+		padding: 25px;
+		color: black;
+		text-decoration: none;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
