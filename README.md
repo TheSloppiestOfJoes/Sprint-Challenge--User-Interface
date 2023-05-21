@@ -47,7 +47,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-	```align-items: center;``` will center the items in the flexbox along the y-axis.
+	```align-items: center;``` will center the items in the flexbox along the cross-axis. If the flex direction is row (default), then this will center items along the y-axis. If the flex-direction is column, this will center the items along the x-axis.
 
 4. Explain why git is valuable to a team of developers.
 
