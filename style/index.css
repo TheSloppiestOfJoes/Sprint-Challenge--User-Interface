@@ -66,21 +66,26 @@ p {
     line-height: 1.4;
 }
 
+/* end of reset */
+
+
 .container {
-    width: 800px;
     margin: 0 auto;
 }
 
 .top-content {
     display: flex;
+	flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+	align-items: center;
+	color: #383838;
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 90%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -170,4 +175,17 @@ footer nav a {
 
 .banner {
 	margin-top: 30px;
+	width: 100%;
+	margin-bottom: 40px;
+	/* come back to this to display only the center of the image */
+}
+
+h2 {
+	font-size: 28px;
+	transform: scale(1, 1.2);
+	margin-bottom: 5px;
+}
+
+p {
+	font-size: 24px;
 }
