@@ -36,13 +36,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+	Semantic HTML is a customary format that should be used by everyone in order to improve readability in code when being reviewed by others.
+
 2. What are the 4 areas of the box model?
+
+	Content - The actual information of an item.
+	Padding - The area between the content and the border.
+	Border - The space between Padding and Margins, usually utilized by being made visible as a part of design.
+	Margins - The spacing between the Border (or Padding or Content, depending on what is applicable) and the surrounding items/boxes.
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+	
+
 4. Explain why git is valuable to a team of developers.
 
+	If properly utilized, git can be used to allow multiple developers to work on the same project, or even the same file, without overwriting each others work. Finally, it allows the project manager(s) to review the changes made by each developer and make decisions on a case-by-case basis to merge or reject changes to the final repository.
+
 5. Define mobile-first design in your own words.
+
+	Mobile-First Design is a concept in which a developer will design a web-page to be properly displayed on a mobile device before moving on to a Desktop site. In doing this, developers can avoid circumstances that may cause elements to not display well when adapting to a mobile environment.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
